@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+.dark-bg {
+  background-color: #333333;
+}
+.link-dark {
+  color: white;
+}
+.link-light {
+  color: #171f46;
+}
+.logo {
+  width: 5%;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+.link {
+  font-weight: 600;
+  text-decoration: none;
+}
+.theme-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 0;
+}
+.theme-icon {
+  width: 60%;
+}
+.line {
+  border: 1px solid #dcdcdc;
+  background-color: #dcdcdc;
+}
